@@ -6,7 +6,7 @@ def print_params(
         c=True
     ):
     
-    print(a, b, c)
+    print(f'a={a :<15}b={b :<15}c={c}')
 
 
 print_params()
